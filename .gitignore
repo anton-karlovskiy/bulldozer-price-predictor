@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Extracted dataset — large (~500MB); regenerated from data/bluebook-for-bulldozers.zip
+# automatically on first run of the notebooks. The zip itself IS tracked.
+/data/bluebook-for-bulldozers/
+
+# Trained model artifacts (generated when the notebook runs)
+*.pkl
+*.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
