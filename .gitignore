@@ -21,5 +21,4 @@ ENV/
 # OS / editor
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
